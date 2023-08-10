@@ -1,0 +1,102 @@
+@media screen and (max-width: 688px) {
+  .nav-items-container,
+  .nav-container,
+  .discount-container {
+    flex-direction: column;
+  }
+  .nav-items-container {
+    gap: 30px;
+    width: 100%;
+  }
+  div > .login-button {
+    text-align: center;
+    width: 100%;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-text,
+  .banner-img,
+  .discount-img,
+  .discount-text {
+    width: 100%;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+  }
+  .banner-text {
+    margin-bottom: 20px;
+  }
+  .banner-text p {
+    font-size: 25px;
+  }
+  .fa-brands {
+    font-size: 30px;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-container {
+    justify-content: center;
+  }
+  .discount-text {
+    text-align: center;
+  }
+  .discount-section {
+    padding: 5px;
+  }
+}
+
+/* FOR Tablets and IPads */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+  .nav-items-container,
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-items-container {
+    gap: 30px;
+    width: 100%;
+  }
+  div > .login-button {
+    text-align: center;
+    width: 100%;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-text,
+  .banner-img {
+    width: 100%;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+  }
+  .banner-text {
+    margin-bottom: 20px;
+  }
+  .banner-text p {
+    font-size: 25px;
+  }
+  .fa-brands {
+    font-size: 30px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-container {
+    justify-content: center;
+  }
+}
+
+/* for responsive */
+
+@media screen and (min-width: 993px) and (max-width: 1300px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .logo-container {
+    justify-content: center;
+  }
+}
